@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 
+
 using namespace std;
 
 //setting up enum for color
@@ -276,7 +277,7 @@ Node* makeNewLeaf(Node* parent){
   return leaf;
 }
 
-//algorithm sourced from geeks4geeks
+//algorithm sourced from geeks4geeks https://www.geeksforgeeks.org/print-binary-tree-2-dimensions/ 
 void printTree(Node* root, int space){
   if(!isLeaf(root)){
     space+=10;
